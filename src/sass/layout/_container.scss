@@ -1,0 +1,6 @@
+.main {
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr [col-start] repeat(6, 1fr) [col-end] 1fr;
+    }
+}
